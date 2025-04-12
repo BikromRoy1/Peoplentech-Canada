@@ -1868,6 +1868,7 @@ button.ltr {
   transform: scale(1, 0);
   transition: all 0.4s;
   transform-origin: top;
+  border-bottom: 3px solid var(--theme-color-2);
 }
 
 .mega-menu:hover .mega-menu-content {
@@ -1982,5 +1983,6 @@ button.ltr {
   .mega-menu-content {
     padding: 30px;
     background-color: var(--title-color);
+    border-bottom: none;
   }
 }
