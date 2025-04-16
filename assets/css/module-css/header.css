@@ -203,7 +203,9 @@
 .main-menu .navigation > li > ul > li > a,
 .main-menu .navigation > li > .megamenu li > a{
   position:relative;
-  display:block;
+  display:flex;
+  align-items: start;
+  gap: 12px;
   padding: 5px 0px;
   line-height:24px;
   font-weight:500;

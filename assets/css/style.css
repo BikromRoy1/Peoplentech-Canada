@@ -1922,7 +1922,9 @@ button.ltr {
 }
 
 .mega-menu-content ul li a {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 12px;
   padding: 3px 0px;
   line-height: 22px;
   font-weight: 500;
@@ -1995,7 +1997,7 @@ button.ltr {
   color: var(--theme-color) !important;
 }
 .menu-button a i {
-  margin-left: 7px;
+  padding: 5px 0px;
 }
 .menu-button:hover {
   text-decoration: underline;
@@ -2004,5 +2006,5 @@ button.ltr {
 
 .icons-style a i {
   color: var(--theme-color);
-  margin-right: 7px;
+  padding: 5px 0px;
 }
