@@ -1862,6 +1862,7 @@ button.ltr {
   left: 0;
   width: 100%;
   background: #fff;
+  /* background: linear-gradient(to right, #00b4db, #0083b0); */
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
   z-index: 1000;
   padding: 36px 0px;
@@ -1900,7 +1901,10 @@ button.ltr {
   font-size: 20px;
   margin-bottom: 30px;
   font-weight: 600;
-  color: var(--theme-color);
+  /* color: var(--theme-color); */
+  background: linear-gradient(to right, #00b4db, #0083b0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   position: relative;
 }
 .mega-menu-content h4::after {
