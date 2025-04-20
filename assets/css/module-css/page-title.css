@@ -1,16 +1,21 @@
-
 /** page-title **/
 
-.page-title{
+.page-title {
   position: relative;
 }
+.Page-background {
+  background-image: url('../../images/shape/breadcrumb.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-.page-title .content-box{
+.page-title .content-box {
   position: relative;
   display: block;
 }
 
-.page-title h1{
+.page-title h1 {
   position: relative;
   display: block;
   font-size: 56px;
@@ -18,14 +23,14 @@
   margin-bottom: 12px;
 }
 
-.page-title .bread-crumb{
+.page-title .bread-crumb {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.page-title .bread-crumb li{
+.page-title .bread-crumb li {
   position: relative;
   display: inline-block;
   font-size: 16px;
@@ -34,89 +39,63 @@
   margin: 0px 2px;
 }
 
-.page-title .bread-crumb li a{
+.page-title .bread-crumb li a {
   display: inline-block;
   color: var(--title-color);
 }
 
-.page-title .bread-crumb li a:hover{
-
+.page-title .bread-crumb li a:hover {
 }
 
+.breadcrumb__area__shape {
+  position: absolute;
+  right: 10%;
+  top: 60%;
+  transform: translate(0, -50%);
+}
+@media screen and (max-width: 992px) {
+  .breadcrumb__area__shape {
+    right: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .breadcrumb__area__shape {
+    display: none !important;
+  }
+}
+.breadcrumb__area__shape .shape__one {
+  right: 25%;
+  position: absolute;
+}
+@media screen and (max-width: 992px) {
+  .breadcrumb__area__shape .shape__one {
+    display: none;
+  }
+}
 
 /** rtl-css **/
 
-
-
-
 /** responsive-css **/
 
-@media only screen and (max-width: 1200px){
-
+@media only screen and (max-width: 1200px) {
 }
 
-@media only screen and (max-width: 991px){
-
+@media only screen and (max-width: 991px) {
 }
 
-@media only screen and (max-width: 767px){
-  .page-title{
+@media only screen and (max-width: 767px) {
+  .page-title {
     padding-top: 70px;
   }
 
-  .page-title h1{
+  .page-title h1 {
     font-size: 40px;
     line-height: 50px;
   }
 }
 
-@media only screen and (max-width: 599px){
-  
+@media only screen and (max-width: 599px) {
 }
 
-@media only screen and (max-width: 499px){
-
+@media only screen and (max-width: 499px) {
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
