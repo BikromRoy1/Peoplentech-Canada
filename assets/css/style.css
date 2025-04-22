@@ -1862,7 +1862,6 @@ button.ltr {
   left: 0;
   width: 100%;
   background: #fff;
-  /* background: linear-gradient(to right, #00b4db, #0083b0); */
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
   z-index: 1000;
   padding: 36px 0px;
@@ -1887,15 +1886,71 @@ button.ltr {
   flex: 1;
   position: relative;
   padding: 0px 40px;
+  overflow: hidden;
 }
+.column2 {
+  flex: 1;
+  position: relative;
+}
+
+.header-location {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.header-location-item {
+  display: flex;
+  align-items: start;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.header-location-item:last-child {
+  margin-bottom: 0px !important;
+}
+.header-location-item i {
+  color: var(--theme-color);
+  font-size: 20px;
+  padding-top: 4px;
+}
+.header-location-item h5 {
+  font-size: 17px;
+  padding-bottom: 6px;
+}
+.header-location-item p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+}
+.location-btn {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  justify-content: end;
+  margin-top: -15px;
+}
+.location-btn a {
+  color: var(--theme-color) !important;
+}
+.location-btn a {
+  padding: 5px 0px;
+}
+.location-btn:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--theme-color);
+  letter-spacing: 1px;
+}
+
 .mega-menu-content .column::after {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
-  height: 400px;
+  height: 500px;
   width: 2px;
   background-color: rgba(145, 145, 145, 0.2117647059);
+}
+.mega-menu-content .column:first-child::after {
+  display: none;
 }
 .mega-menu-content h4 {
   font-size: 20px;
@@ -1915,6 +1970,9 @@ button.ltr {
   height: 2px;
   width: 25%;
   background-color: rgba(145, 145, 145, 0.2117647059);
+}
+.Company-title::after {
+  width: 7% !important;
 }
 .mega-menu-content ul {
   list-style: none;
@@ -1956,6 +2014,12 @@ button.ltr {
   }
   .mega-menu-content .row {
     flex-direction: column;
+  }
+  .header-location {
+    flex-direction: column;
+  }
+  .header-location-item h5 {
+    color: #fff;
   }
 }
 @media (max-width: 991px) {
