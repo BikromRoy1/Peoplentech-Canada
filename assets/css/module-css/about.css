@@ -1234,7 +1234,9 @@
 }
 
 /* Macing used */
-
+.category-background {
+  background: #fafafa;
+}
 
 @media only screen and (max-width: 991px) {
   .about-body-item {
