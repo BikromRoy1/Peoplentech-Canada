@@ -1,0 +1,51 @@
+/* ?? Workforce-solutions-Pages  */
+/*--------------------------------------------------------------
+# Workforce solutions Modal
+--------------------------------------------------------------*/
+.servicesModal .seminarModalTitle {
+  color: var(--theme-color-2);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+}
+.servicesModal .php-email-form {
+  width: 100%;
+}
+.servicesModal .php-email-form .form-group {
+  padding-bottom: 8px;
+}
+.servicesModal .php-email-form input,
+.servicesModal .php-email-form textarea,
+.servicesModal .php-email-form select {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  padding: 10px !important;
+  border-radius: 4px;
+}
+.servicesModal .php-email-form input:focus,
+.servicesModal .php-email-form textarea:focus,
+.servicesModal .php-email-form select:focus {
+  border-color: var(--theme-color-2);
+}
+.servicesModal .php-email-form input,
+.servicesModal .php-email-form select {
+  height: 44px;
+}
+.servicesModal .php-email-form textarea {
+  padding: 10px 12px;
+}
+.servicesModal .php-email-form button[type='submit'] {
+  background: var(--theme-color);
+  color: #fff;
+  border: 0;
+  padding: 9px 30px;
+  transition: 0.4s;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.servicesModal .php-email-form button[type='submit']:hover {
+  background: var(--theme-color-2);
+}

@@ -33,6 +33,18 @@
   margin-bottom: 12px;
   color: #fff;
 }
+.page-title p {
+  color: #ebf8fe;
+  font-size: 17px;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+.page-title-2 {
+  font-size: 42px !important;
+  line-height: 56px !important;
+  text-transform: capitalize;
+  margin-bottom: 20px !important;
+}
 
 .page-title .bread-crumb {
   position: relative;
@@ -102,6 +114,16 @@
   .page-title h1 {
     font-size: 40px;
     line-height: 50px;
+  }
+  .page-title-2 {
+    font-size: 30px !important;
+    line-height: 40px !important;
+    text-transform: capitalize;
+    margin-bottom: 20px !important;
+  }
+  .page-title p {
+    font-size: 15px;
+    line-height: 24px;
   }
 }
 
