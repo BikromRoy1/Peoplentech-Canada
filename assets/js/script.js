@@ -318,6 +318,37 @@
     });
   }
 
+  if ($('.four-item-carousel').length) {
+    $('.four-item-carousel').owlCarousel({
+      loop: true,
+      margin: 30,
+      nav: true,
+      smartSpeed: 500,
+      autoplay: 1000,
+      navText: [
+        '<span class="icon-34"></span>',
+        '<span class="icon-35"></span>',
+      ],
+      responsive: {
+        0: {
+          items: 1,
+        },
+        480: {
+          items: 1,
+        },
+        600: {
+          items: 2,
+        },
+        800: {
+          items: 2,
+        },
+        1200: {
+          items: 4,
+        },
+      },
+    });
+  }
+
   // four-item-carousel
   if ($('.four-item-carousel').length) {
     $('.four-item-carousel').owlCarousel({
