@@ -847,3 +847,137 @@
     margin-left: 0px !important;
   }
 }
+/** page-title **/
+
+.page-title {
+  position: relative;
+}
+.Page-background {
+  background-image: url('../../images/background/breadcrumb.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.Page-background::before {
+  position: absolute;
+  content: '';
+  background: #000;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  opacity: 0.5;
+}
+
+.page-title .content-box {
+  position: relative;
+  display: block;
+}
+
+.page-title h1 {
+  position: relative;
+  display: block;
+  font-size: 56px;
+  line-height: 60px;
+  margin-bottom: 12px;
+  color: #fff;
+}
+.page-title p {
+  color: #ebf8fe;
+  font-size: 17px;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+.page-title-2 {
+  font-size: 42px !important;
+  line-height: 56px !important;
+  text-transform: capitalize;
+  margin-bottom: 20px !important;
+}
+
+.page-title .bread-crumb {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-title .bread-crumb li {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  margin: 0px 2px;
+}
+
+.page-title .bread-crumb li a {
+  display: inline-block;
+  color: #fff;
+}
+
+.page-title .bread-crumb li a:hover {
+}
+
+.breadcrumb__area__shape {
+  position: absolute;
+  right: 10%;
+  top: 60%;
+  transform: translate(0, -50%);
+}
+@media screen and (max-width: 992px) {
+  .breadcrumb__area__shape {
+    right: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .breadcrumb__area__shape {
+    display: none !important;
+  }
+}
+.breadcrumb__area__shape .shape__one {
+  right: 25%;
+  position: absolute;
+}
+@media screen and (max-width: 992px) {
+  .breadcrumb__area__shape .shape__one {
+    display: none;
+  }
+}
+
+/** rtl-css **/
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 991px) {
+}
+
+@media only screen and (max-width: 767px) {
+  .page-title {
+    padding-top: 70px;
+  }
+
+  .page-title h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .page-title-2 {
+    font-size: 30px !important;
+    line-height: 40px !important;
+    text-transform: capitalize;
+    margin-bottom: 20px !important;
+  }
+  .page-title p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+}
+
+@media only screen and (max-width: 499px) {
+}
