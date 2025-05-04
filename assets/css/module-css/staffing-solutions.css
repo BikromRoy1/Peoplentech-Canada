@@ -1,0 +1,93 @@
+/* Page banner-section */
+.staffing-meeting h4 {
+  padding-top: 1rem;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 15px;
+  background: linear-gradient(to right, #00b4db, #97dcf3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: capitalize;
+}
+.staffing-meeting p {
+  font-size: 18px !important;
+  line-height: 28px !important;
+  margin-bottom: 15px !important;
+}
+.staffing-meeting img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+/* working process sections */
+.work-process-section {
+  background-color: #fafafa;
+}
+
+/*==========================================================================
+* Technology
+==========================================================================*/
+.technology-solution__one-image {
+  position: relative;
+}
+.technology-solution__one-image-wrapper {
+  padding: 0 0px;
+}
+.technology-solution__one-content h2 {
+  text-transform: none;
+  margin-bottom: 30px;
+}
+.technology-solution__one-content p {
+  color: var(--color-2);
+  margin-bottom: 30px;
+  width: 90%;
+}
+.technology-solution__one-content .satisfied-customer-counter {
+  display: flex;
+  align-items: center;
+  background: var(--color-1);
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 15px 0 15px 25px;
+  border-radius: 20px;
+}
+.technology-solution__one-content .satisfied-customer-counter .counter-wrapper {
+  display: flex;
+  margin-right: 10px;
+}
+.technology-solution__one-content
+  .satisfied-customer-counter
+  .counter-wrapper
+  h3 {
+  font-size: 48px;
+  color: var(--primary-color-1);
+}
+.technology-solution__one-content .satisfied-customer-counter span {
+  font-size: 18px;
+  width: 28%;
+  font-weight: 500;
+}
+
+.project-color-3 {
+  background-color: #fff2f7;
+  color: #e597b4;
+}
+.project-color-4 {
+  background-color: #ddfff5;
+  color: #6bc6ad;
+}
+.project-wrapper-title {
+  margin-bottom: 20px;
+}
+.project-wrapper-3 {
+  background-color: transparent;
+  background-image: linear-gradient(270deg, #fff6fa 7.29%, #ffffff 105.16%);
+  border-radius: 16px;
+}
+.project-wrapper-4 {
+  background-color: transparent;
+  background-image: linear-gradient(270deg, #ffffff -0.81%, #e2fff7 105.16%);
+  border-radius: 16px;
+}
