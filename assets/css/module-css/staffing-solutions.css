@@ -91,3 +91,111 @@
   background-image: linear-gradient(270deg, #ffffff -0.81%, #e2fff7 105.16%);
   border-radius: 16px;
 }
+
+/* Payroll Services */
+.payroll-service {
+  background: #f2f2f5;
+}
+.payroll-service .our-benefit-image {
+  position: relative;
+  height: 100%;
+  padding-right: 85px;
+  margin-right: 80px;
+}
+.payroll-service .benefit-img-1 {
+  height: 100%;
+}
+.payroll-service .benefit-img-1 figure {
+  height: 100%;
+}
+.payroll-service .image-anime {
+  position: relative;
+  overflow: hidden;
+}
+.benefit-img-1 img {
+  width: 100%;
+  aspect-ratio: 1 / 1.01;
+  object-fit: cover;
+}
+.payroll-service .image-anime:after {
+  content: '';
+  position: absolute;
+  width: 200%;
+  height: 0%;
+  left: 50%;
+  top: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+  transform: translate(-50%, -50%) rotate(-45deg);
+  z-index: 1;
+}
+.benefit-img-2 {
+  position: absolute;
+  max-width: 354px;
+  right: -30px;
+  bottom: 40px;
+  border: 10px solid #fff;
+  border-radius: 30px;
+  overflow: hidden;
+  z-index: 1;
+}
+.benefit-img-2 figure {
+  display: block;
+}
+.benefit-img-2 img {
+  width: 100%;
+  aspect-ratio: 1 / 1.21;
+  object-fit: cover;
+}
+.our-benefit-content {
+  padding: 100px 0;
+  padding-right: calc(((100vw - 1300px) / 2) + 5px);
+}
+@media only screen and (max-width: 767px) {
+  .payroll-service .our-benefit-image {
+    padding-right: 50px;
+  }
+  .benefit-img-1 img {
+    aspect-ratio: 1 / 1.1;
+  }
+  .benefit-img-2 {
+    max-width: 160px !important;
+    border-width: 5px;
+    bottom: 20px;
+  }
+  .benefit-img-2 img {
+    aspect-ratio: 1 / 1.1;
+  }
+  .contact-us-circle {
+    top: 20px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .payroll-service .our-benefit-image {
+    height: auto;
+    margin: 0 15px;
+    margin-bottom: 30px;
+  }
+  .payroll-service .benefit-img-1 {
+    height: auto;
+    border-radius: 20px;
+  }
+  .payroll-service .benefit-img-1 figure {
+    height: auto;
+    border-radius: 20px;
+  }
+  .benefit-img-1 img {
+    aspect-ratio: 1 / 0.98;
+  }
+  .benefit-img-2 {
+    max-width: 280px;
+    border-radius: 20px;
+    right: 0;
+  }
+  .our-benefit-content {
+    padding: 0 15px;
+  }
+  .payroll-service {
+    padding: 50px 0;
+  }
+}
