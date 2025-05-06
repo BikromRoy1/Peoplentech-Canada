@@ -5532,7 +5532,7 @@ div#mCSB_1_container {
   display: block;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
-  padding: 28px 20px 33px 110px;
+  padding: 28px 20px 33px 100px;
   margin-bottom: 30px;
   z-index: 1;
 }
@@ -5560,8 +5560,12 @@ div#mCSB_1_container {
   position: absolute;
   left: 20px;
   top: 30px;
-  font-size: 64px;
   transition: all 500ms ease;
+}
+.industries-block-two .inner-box .icon-box img{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
 }
 
 .industries-block-two .inner-box:hover .icon-box {
