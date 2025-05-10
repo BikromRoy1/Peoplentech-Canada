@@ -3566,12 +3566,13 @@ div#mCSB_1_container {
 }
 
 .banner-section .content-box h2 {
-  font-size: 70px;
-  line-height: 79px;
+  font-size: 48px;
+  line-height: 66px;
   color: #fff;
-  max-width: 930px;
+  max-width: 950px;
   margin: 0 auto;
   margin-bottom: 24px;
+  text-transform: capitalize;
 }
 
 .banner-section .content-box p {
