@@ -339,3 +339,58 @@
     padding-bottom: 2rem;
   }
 }
+/* ?? industries It Solutions-Pages  */
+/*--------------------------------------------------------------
+# industries
+--------------------------------------------------------------*/
+.industries-block-three {
+  width: 100%;
+  height: 100%;
+}
+.industries-block-three .inner-box {
+  position: relative;
+  display: block;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 25px;
+  height: 100%;
+  text-align: center;
+}
+
+.industries-block-three .inner-box .icon-box {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 19px;
+  transition: all 500ms ease;
+}
+
+.industries-block-three .inner-box:hover .icon-box {
+  transform: rotateY(180deg);
+}
+.industries-block-three .inner-box .icon-box img {
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+}
+
+.industries-block-three .inner-box h3 {
+  position: relative;
+  display: block;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.industries-block-three .inner-box h3 a {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+}
+
+.industries-block-three .inner-box h3 a:hover {
+}
+
+.industries-block-three .inner-box p {
+  color: #fff;
+  opacity: 0.8;
+}
