@@ -1,0 +1,100 @@
+/* ?? values -Pages  */
+/*--------------------------------------------------------------
+# core-values
+--------------------------------------------------------------*/
+.core-values-options {
+  background-color: #f9fcff;
+}
+.twm-w-process-steps3 {
+  margin-bottom: 30px;
+  padding: 15px 15px 30px 30px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.twm-w-process-steps3 .twm-w-pro-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.twm-w-process-steps3 .twm-large-number {
+  font-size: 75px;
+  line-height: 65px;
+  font-weight: 800;
+  font-family: 'Poppins', sans-serif;
+}
+.text-clr-sky {
+  color: #3898e2;
+}
+.twm-w-process-steps3 .twm-w-pro-top .twm-media {
+  width: 90px;
+  height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.bg-clr-sky {
+  background-color: #3898e2;
+}
+.twm-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 9px;
+  text-transform: capitalize;
+}
+.twm-text {
+  font-size: 15px;
+}
+.text-clr-pink {
+  color: #bc84ca;
+}
+.bg-clr-pink {
+  background-color: #bc84ca;
+}
+.text-clr-green {
+  color: #56d8b1;
+}
+.bg-clr-green {
+  background-color: #56d8b1;
+}
+.text-clr-purple {
+  color: #8883ec;
+}
+.bg-clr-purple {
+  background-color: #8883ec;
+}
+.text-clr-yellow {
+  color: #eac87c;
+}
+.bg-clr-yellow {
+  background-color: #eac87c;
+}
+.text-clr-dark-sky {
+  color: #2d9bb3;
+}
+.bg-clr-dark-sky {
+  background-color: #2d9bb3;
+}
+/* success message */
+.message-values {
+  position: relative;
+  display: block;
+  margin: 0px;
+  padding: 42px 80px 42px 40px;
+  border-radius: 10px;
+  background: #e7e7e7;
+}
+.message-values .icon-box {
+  position: absolute;
+  right: 30px;
+  bottom: 18px;
+  font-size: 70px;
+  line-height: 60px;
+  opacity: 0.2;
+  transform: rotate(180deg);
+}
+.message-values p {
+  font-style: italic;
+  font-size: 17px;
+}
