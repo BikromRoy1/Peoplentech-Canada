@@ -455,3 +455,25 @@
 .bg-clr-green-light {
   background-color: #8be3c6;
 }
+
+/* ??  CSR -Pages  */
+/*--------------------------------------------------------------
+#  Our CSR
+--------------------------------------------------------------*/
+.Description-csr {
+  background: #fafafa;
+}
+.Advancing {
+  background: #fafafa;
+}
+.Description-staffing {
+  margin-top: 20px;
+  text-align: left;
+}
+.Description-staffing h4 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 32px;
+  transition: all 0.4s;
+  text-transform: capitalize;
+}
