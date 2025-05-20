@@ -6956,3 +6956,106 @@ div#mCSB_1_container {
     padding: 90px 0px;
   }
 }
+/* ?? working process Solutions-Pages  */
+/*--------------------------------------------------------------
+# working process
+--------------------------------------------------------------*/
+.service-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .service-box {
+    gap: 1.5rem; /* sm:gap-6 */
+  }
+}
+
+.service-icon {
+  padding: 1rem;
+  border-radius: 9999px;
+  position: relative;
+  transition: all 0.5s ease;
+}
+
+.hover-track-1::after,
+.hover-track-2::after {
+  content: '';
+  position: absolute;
+  background-color: #e2e8f0; /* strokeColor */
+  width: 1px;
+  right: 50%;
+  height: 200px;
+  transition: all 0.5s ease;
+}
+
+@media (min-width: 340px) {
+  .hover-track-1::after,
+  .hover-track-2::after {
+    height: 170px;
+  }
+}
+@media (min-width: 450px) {
+  .hover-track-1::after,
+  .hover-track-2::after {
+    height: 130px;
+  }
+}
+@media (min-width: 1024px) {
+  .hover-track-1::after,
+  .hover-track-2::after {
+    height: 150px;
+  }
+}
+
+.service-box:hover .hover-track-1,
+.service-box:hover .hover-track-2 {
+  background-color: var(--theme-color); /* s2 */
+}
+
+.service-box:hover .hover-track-1::after,
+.service-box:hover .hover-track-2::after {
+  background-color: var(--theme-color);
+  width: 3px;
+}
+
+.icon-number {
+  color: white;
+  background-color: var(--theme-color-2); /* s1 */
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 9999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.service-text {
+  flex: 1;
+}
+
+.border-line {
+  border-bottom: 1px solid #e2e8f0; /* strokeColor */
+}
+
+.custom-heading {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.custom-paragraph {
+  color: #64748b; /* text-bodyText */
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+@media (min-width: 1280px) {
+  .custom-paragraph {
+    padding-bottom: 2rem;
+  }
+}
