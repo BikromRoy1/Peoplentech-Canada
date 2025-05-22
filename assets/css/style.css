@@ -1893,6 +1893,10 @@ button.ltr {
   position: relative;
 }
 
+.Business.column:first-child {
+  flex: 2 !important;
+}
+
 .header-location {
   display: flex;
   justify-content: space-between;
@@ -2002,10 +2006,34 @@ button.ltr {
   -o-transition: all 500ms ease;
 }
 
+.Business-menu {
+  display: flex;
+  gap: 20px;
+  align-items: start;
+  justify-content: space-between;
+}
+
 .mega-menu-content ul li a:hover {
   color: var(--theme-color);
   letter-spacing: 1px;
 }
+
+.business-menu-items {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+.business-flex {
+  flex: 1;
+}
+.Business-gap {
+  margin-bottom: 18px !important;
+}
+.Business-gap:last-child {
+  margin-bottom: 0px !important;
+}
+
 @media (max-width: 768px) {
   .mega-menu-content {
     position: static;
@@ -2020,6 +2048,38 @@ button.ltr {
   }
   .header-location-item h5 {
     color: #fff;
+  }
+
+  .business-menu-items {
+    gap: 0px;
+    align-items: start;
+  }
+  .business-flex {
+    flex: 2 !important;
+  }
+  .Business-menu {
+    flex-wrap: wrap;
+  }
+  .business-menu-items {
+    flex-direction: column;
+  }
+  .Business-link {
+    font-size: 16px !important;
+    margin-left: 20px !important;
+    text-transform: capitalize !important;
+    color: #fff !important;
+    margin-bottom: 8px !important;
+    position: relative !important;
+    /* display: block !important; */
+    line-height: 24px !important;
+    padding: 10px 25px !important;
+    font-weight: 500 !important;
+  }
+  .icons-style {
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+  }
+  .Business-gap {
+    margin-bottom: 8px !important;
   }
 }
 @media (max-width: 991px) {
@@ -5527,7 +5587,7 @@ div#mCSB_1_container {
   background-repeat: no-repeat;
   background-position: center;
 }
-.industries-block-two{
+.industries-block-two {
   height: 100%;
 }
 .industries-block-two .inner-box {
@@ -5565,7 +5625,7 @@ div#mCSB_1_container {
   top: 30px;
   transition: all 500ms ease;
 }
-.industries-block-two .inner-box .icon-box img{
+.industries-block-two .inner-box .icon-box img {
   width: 60px;
   height: 60px;
   object-fit: cover;
