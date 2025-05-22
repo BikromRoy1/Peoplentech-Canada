@@ -6,6 +6,9 @@
   background: #fafafa;
   /* background: linear-gradient(to left, #2c3e50, #3498db); */
 }
+.common-background {
+  background: #fafafa;
+}
 
 .right-choose-content img:nth-child(1) {
   position: relative;
@@ -89,4 +92,26 @@
 }
 .sow-working-process {
   background: #fafafa;
+}
+/* Page banner-section */
+.staffing-meeting h4 {
+  padding-top: 1rem;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 15px;
+  background: linear-gradient(to right, #00b4db, #97dcf3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: capitalize;
+}
+.staffing-meeting p {
+  font-size: 18px !important;
+  line-height: 28px !important;
+  margin-bottom: 15px !important;
+}
+.staffing-meeting img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  margin-top: 10px;
 }
