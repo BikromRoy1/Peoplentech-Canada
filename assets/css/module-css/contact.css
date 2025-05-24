@@ -416,10 +416,87 @@
 }
 .contact .form-container .form-floating .form-control {
   border-radius: 12px;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 80%);
+  border: 1px solid color-mix(in srgb, var(--theme-color), transparent 80%);
   padding: 24px 20px 8px 20px;
   height: calc(3.5rem + 3px);
-  background-color: var(--surface-color);
-  color: var(--default-color);
+  background-color: #fff;
+  color: var(--title-color);
   transition: all 0.3s ease;
+}
+.contact .form-container .form-floating .form-control:focus {
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--theme-color), transparent 85%);
+  border-color: color-mix(in srgb, var(--theme-color), transparent 40%);
+  background-color: #fff;
+}
+
+.contact .form-container .form-floating .form-control::placeholder {
+  color: transparent;
+}
+.contact .form-container .form-floating label {
+  color: color-mix(in srgb, var(--title-color), transparent 40%);
+  padding: 1rem 1.25rem 2.5rem 1.25rem;
+}
+.contact .form-container .form-floating label::after {
+  background-color: transparent;
+}
+.contact .form-container .btn-submit {
+  background: linear-gradient(
+    145deg,
+    var(--theme-color),
+    color-mix(in srgb, var(--theme-color), #1a4372 30%)
+  );
+  color: #fff;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact .form-container .btn-submit:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px
+    color-mix(in srgb, var(--theme-color), transparent 75%);
+}
+.contact .form-container .btn-submit i {
+  transition: transform 0.3s ease;
+}
+.contact .form-container .btn-submit:hover i {
+  transform: translateX(5px);
+}
+@media (max-width: 768px) {
+  .contact .contact-info-panel {
+    padding: 30px 25px;
+  }
+
+  .contact .form-container {
+    padding: 30px 25px;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact .social-links-panel .social-icons {
+    flex-wrap: wrap;
+  }
+}
+.checked-from {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.checked-from-level {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: normal;
+}
+.checked-from-title {
+  font-size: 17px;
+  line-height: 26px;
+  margin-bottom: 13px;
+  font-weight: 600;
+  text-transform: capitalize;
 }
