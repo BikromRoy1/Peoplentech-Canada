@@ -1,0 +1,67 @@
+/* Media */
+.Press-item {
+  background: #e6f6ff;
+  border-radius: 30px;
+  margin-bottom: 32px;
+}
+.Press-img {
+  border-radius: 30px 0px 0px 30px;
+}
+.Press-content {
+  padding: 25px 40px 25px 40px;
+}
+.Press-content h5 {
+  font-size: 28px;
+  color: var(--title-color);
+  margin-top: 20px;
+  line-height: 38px;
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+.Press-content p {
+  font-size: 16px;
+  color: #023;
+  margin-bottom: 24px;
+}
+.link a {
+  position: relative;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: var(--title-font);
+  font-weight: 500;
+  color: var(--title-color);
+  padding-right: 28px;
+}
+.press-logo {
+  object-fit: contain;
+  width: 121px;
+  height: auto;
+}
+.press-date {
+  font-size: 15px;
+  color: #023;
+  opacity: 0.6;
+  margin-bottom: 0;
+  display: flex;
+  align-items: flex-end;
+}
+.link a:hover {
+  color: var(--theme-color);
+}
+.link a i {
+  position: absolute;
+  top: 9px;
+  right: 0px;
+  font-size: 14px;
+  font-weight: 400;
+}
+@media only screen and (max-width: 767px) {
+  .Press-img {
+    border-radius: 30px 30px 0px 0px;
+  }
+  .Press-content h5 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
