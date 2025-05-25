@@ -7119,3 +7119,63 @@ div#mCSB_1_container {
     padding-bottom: 2rem;
   }
 }
+/* ?? Recently Placed Job Roles-Pages  */
+/*--------------------------------------------------------------
+# Recently Placed Job Roles
+--------------------------------------------------------------*/
+.placed-job {
+  background-color: #fafafa;
+}
+.placed-job .job-categories-3-wrap {
+  height: 100%;
+}
+.placed-job .job-categories-3 {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  height: 100%;
+  top: 40px;
+  transition: 0.5s all ease;
+}
+.job-categories-3 .twm-media {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(56, 152, 226, 0.3);
+  display: table;
+  margin-bottom: -40px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -70px;
+  background-color: #fff;
+  transition: 0.5s all ease;
+}
+.job-categories-3 .flaticon-dashboard img {
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+}
+.twm-content a {
+  color: var(--title-color);
+}
+.twm-content a h4 {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.job-categories-3:hover {
+  background-color: var(--theme-color);
+}
+.job-categories-3:hover .twm-content a {
+  color: #fff;
+}
+.job-categories-3:hover .twm-content a h4 {
+  color: #fff;
+}
