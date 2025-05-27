@@ -500,3 +500,45 @@
   font-weight: 600;
   text-transform: capitalize;
 }
+/* Email in All locations */
+.locations-email {
+  background-color: color-mix(in srgb, var(--text-color), transparent 90%);
+}
+.locations-email-content h4 {
+  margin-bottom: 1rem;
+}
+.locations-list {
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+.locations-list .icon-box {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  background-color: color-mix(in srgb, var(--theme-color), transparent 90%);
+  color: var(--theme-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+.locations-list .icon-box img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.locations-list h6 {
+  font-size: 1.15rem;
+  margin-bottom: 0.3rem;
+}
+.locations-email-content .note {
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+.locations-email-content .note span {
+  color: orangered;
+  font-weight: 600;
+}
