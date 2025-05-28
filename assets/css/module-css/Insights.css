@@ -119,3 +119,120 @@
   opacity: 0.6;
   margin-bottom: 0;
 }
+
+/* ?? Success Stories -Pages  */
+/*--------------------------------------------------------------
+# Success Stories
+--------------------------------------------------------------*/
+.success-stories-items {
+  background: #eff3f5;
+  border-radius: 20px;
+  margin-bottom: 32px;
+}
+.success-content {
+  padding: 25px 40px 25px 0px;
+}
+.success-logo {
+  object-fit: contain;
+  width: 121px;
+  height: auto;
+}
+.success-date {
+  font-size: 15px;
+  color: #023;
+  opacity: 0.6;
+  margin-bottom: 0 !important;
+  display: flex;
+  align-items: flex-end;
+}
+.success-content h5 {
+  font-size: 30px;
+  color: var(--title-color);
+  margin-top: 20px;
+  line-height: 38px;
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+.success-content p {
+  font-size: 16px;
+  color: #001a45;
+  margin-bottom: 25px;
+}
+.customer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.customer img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.customer span {
+  color: #000;
+  font-weight: 500;
+}
+.company-name {
+  margin-bottom: 0px;
+  font-weight: 700;
+  font-size: 1rem;
+}
+/* ?? Success Stories details -Pages  */
+/*--------------------------------------------------------------
+# Success Stories details
+--------------------------------------------------------------*/
+.Success-details {
+  width: 100%;
+  position: relative;
+  padding: 80px 0px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background-image: url('../../images/shape/shape-01.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.Success-details .content-box h2 {
+  font-size: 45px;
+  line-height: 54px;
+  color: #fff;
+  margin-bottom: 20px;
+  opacity: 1;
+  transition: all 1000ms ease;
+  text-transform: capitalize;
+}
+.Success-details .content-box .logo {
+  color: var(--theme-color);
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+.intro-title {
+  padding-left: 0.9375rem;
+  margin-bottom: 1.5625rem;
+  border-left: 4px solid var(--theme-color);
+  font-weight: 600;
+  font-size: 28px;
+  text-transform: capitalize;
+}
+.intro-text {
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.intro-left {
+  font-size: 18px;
+  color: #001a45;
+  margin-bottom: 20px;
+  border-left: 4px solid #000000;
+  padding-left: 0.9375rem;
+}
+.customer-star {
+  padding: 3.125rem;
+  border: 1px solid #b7b6b6;
+}
+.arrow-icons {
+  padding-left: 5px;
+  padding-bottom: 15px;
+}
