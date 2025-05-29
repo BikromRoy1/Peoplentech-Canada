@@ -246,6 +246,7 @@
   font-size: 20px;
   color: var(--theme-color);
 }
+
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
@@ -509,7 +510,7 @@
 }
 .locations-list {
   display: flex;
-  margin-bottom: 1rem;
+  margin-bottom: 12px;
   align-items: center;
 }
 .locations-list .icon-box {
@@ -534,11 +535,12 @@
   margin-bottom: 0.3rem;
 }
 .locations-email-content .note {
-  font-size: 18px;
-  font-weight: 500;
-  padding-top: 10px;
-}
-.locations-email-content .note span {
-  color: orangered;
+  font-size: 22px;
   font-weight: 600;
+  margin-bottom: 12px;
+  padding-top: 10px;
+  text-transform: capitalize;
+}
+.location-shadow {
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
 }
