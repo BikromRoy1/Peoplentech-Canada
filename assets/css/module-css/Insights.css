@@ -210,16 +210,18 @@
 }
 .intro-title {
   padding-left: 0.9375rem;
-  margin-bottom: 1.5625rem;
-  border-left: 4px solid var(--theme-color);
-  font-weight: 600;
-  font-size: 28px;
+  margin-bottom: 35px;
+  border-left: 4px solid #024e72;
+  font-weight: 700;
+  font-size: 40px;
   text-transform: capitalize;
+  color: #024e72;
 }
 .intro-text {
   font-size: 18px;
   color: #000000;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  font-weight: 600;
 }
 .intro-left {
   font-size: 18px;
@@ -236,6 +238,92 @@
   padding-left: 5px;
   padding-bottom: 15px;
 }
+.Client-title {
+  color: var(--theme-color-2);
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.Client-text {
+  font-size: 17px;
+  color: #023;
+  font-weight: normal;
+}
+.success-features {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.success-features li {
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  font-weight: normal;
+  color: #000000;
+}
+.success-features li i {
+  color: var(--theme-color-2);
+  margin-right: 10px;
+  font-size: 1.1rem;
+}
+
+.Challenges-items {
+  text-align: center;
+}
+.Challenges-items h3 {
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: capitalize;
+  color: #024e72;
+  margin-bottom: 3rem;
+}
+.Challenges-items-single {
+  background-color: #f7f9fa;
+  padding: 40px;
+  /* height: 100%; */
+  border-radius: 30px 0 0 30px;
+}
+.Solution-items {
+  border-radius: 0 30px 30px 0;
+  padding: 40px;
+  /* height: 100%; */
+  background-color: rgb(95, 187, 70, 0.1);
+}
+.Challenges-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.Challenges-title img {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+}
+.Challenges-title h2 {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.Solution-single {
+  border-bottom: 1px solid #a2aaaf;
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+}
+.Solution-single:last-child {
+  border-bottom: none;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.color-3 {
+  color: #666666 !important;
+}
+.color-2 {
+  color: rgb(95, 187, 70) !important;
+}
+
 /*----------------------------------------*/
 /*  gallery css
 /*----------------------------------------*/
