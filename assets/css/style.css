@@ -4459,7 +4459,7 @@ div#mCSB_1_container {
   position: relative;
 }
 .Page-background {
-  /* background-image: url('../images/background/breadcrumb.jpg'); */
+  background-image: url('../images/background/breadcrumb.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
