@@ -7029,6 +7029,7 @@ div#mCSB_1_container {
   align-items: flex-start;
   gap: 1rem;
   margin-bottom: 1.5rem;
+  padding-right: 60px;
 }
 
 @media (min-width: 640px) {
@@ -7042,17 +7043,19 @@ div#mCSB_1_container {
   border-radius: 9999px;
   position: relative;
   transition: all 0.5s ease;
+  background-color: var(--theme-color);
 }
 
 .hover-track-1::after,
 .hover-track-2::after {
   content: '';
   position: absolute;
-  background-color: #e2e8f0; /* strokeColor */
-  width: 1px;
+  /* background-color: #e2e8f0;  */
+  width: 3px;
   right: 50%;
   height: 200px;
   transition: all 0.5s ease;
+  background-color: var(--theme-color);
 }
 
 @media (min-width: 340px) {
@@ -7060,6 +7063,7 @@ div#mCSB_1_container {
   .hover-track-2::after {
     height: 170px;
   }
+  
 }
 @media (min-width: 450px) {
   .hover-track-1::after,
@@ -7094,8 +7098,9 @@ div#mCSB_1_container {
   display: flex;
   justify-content: center;
   align-items: center;
-  line-height: 1;
+  line-height: normal;
   font-weight: 700;
+  font-size: 20px;
 }
 
 .service-text {
@@ -7122,6 +7127,25 @@ div#mCSB_1_container {
     padding-bottom: 2rem;
   }
 }
+.service-box-wrapper {
+  position: relative;
+}
+.box-arrow {
+  position: absolute;
+  top: 13px;
+  right: -11px;
+  width: 52px;
+}
+
+@media only screen and (max-width: 767px) {
+  .box-arrow {
+   display: none;
+  }
+  .service-box {
+    padding-right: 0px;
+  }
+}
+
 /* ?? Recently Placed Job Roles-Pages  */
 /*--------------------------------------------------------------
 # Recently Placed Job Roles
