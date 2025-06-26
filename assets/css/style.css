@@ -91,6 +91,10 @@ body {
   background-repeat: no-repeat;
   background-position: center top;
   -webkit-font-smoothing: antialiased;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden !important;
+  width: 100%;
 }
 
 @media (min-width: 1200px) {
@@ -7063,7 +7067,6 @@ div#mCSB_1_container {
   .hover-track-2::after {
     height: 170px;
   }
-  
 }
 @media (min-width: 450px) {
   .hover-track-1::after,
@@ -7139,7 +7142,7 @@ div#mCSB_1_container {
 
 @media only screen and (max-width: 767px) {
   .box-arrow {
-   display: none;
+    display: none;
   }
   .service-box {
     padding-right: 0px;
